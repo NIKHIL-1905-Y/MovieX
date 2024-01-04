@@ -27,7 +27,7 @@ function App() {
    const res =  await fetchDataFromApi("/configuration");
    console.log("Result",res)
    const url = {
-    back_drop: res.images.secure_base_url +  'original',
+    backdrop: res.images.secure_base_url +  'original',
     poster: res.images.secure_base_url +  'original',
     profile: res.images.secure_base_url +  'original',
    }
