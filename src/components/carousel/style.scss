@@ -92,6 +92,8 @@
         .carouselItem {
             width: 125px;
             cursor: pointer;
+
+           
             @include md {
                 width: calc(25% - 15px);
             }
@@ -110,6 +112,10 @@
                 align-items: flex-end;
                 justify-content: space-between;
                 padding: 10px;
+                transition: all ease 0.5s;
+                &:hover{
+                    transform: scale(1.12);
+                }
                 .lazy-load-image-background {
                     position: absolute;
                     top: 0;
