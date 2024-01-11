@@ -25,7 +25,8 @@ const Footer = () => {
                  Explore Movix for an immersive movie experience. 
                  Discover classics and new releases across genres.
                  Enjoy personalized recommendations and seamless access to your favorite films anytime. 
-                 Join our community. © 2024 Movix. Connect with us for more movie magic. Thank you for choosing Movix
+                 Join our LinkedIn Community @NikhilYadav. © 2024 Movix. Connect with us for more movie magic. Thank you for choosing Movix.
+                 Created By:Nikhil Kumar
                 </div>
                 <div className="socialIcons">
                     <span className="icon">
